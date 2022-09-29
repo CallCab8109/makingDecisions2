@@ -86,8 +86,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 /*
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
+// alternate myFavoriteNumbers[4]
 
-//Code Here
+let someNum = myFavoriteNumbers.slice(-2, 5)
+console.log(someNum)
 
 
 ////////// PROBLEM 7 //////////
